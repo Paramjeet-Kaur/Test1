@@ -4,18 +4,22 @@ public class RabbitTest {
 		rabbit rabbit = new rabbit(15,0);
 		rabbit.getX();
 		rabbit.getY();
+		boolean runForever = true;
+		while (runForever == true) 
+		{
+			System.out.println("Carrot");
 		if(rabbit.getY()==0)
 		{
 			Thread.sleep(1);
 			
 		}
+		if(rabbit.getX()==0)
+		{
+			Thread.sleep(1);
+		}
 		
-		
-		boolean runForever = true;
+	
 
-		while (runForever == true) {
-			System.out.println("Carrot");
-			Thread.sleep(15);
 		}
 	}
 
