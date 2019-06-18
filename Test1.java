@@ -1,22 +1,34 @@
-import java.util.Scanner;
 public class Test1 {
 
-	public static void main(String[] args) {
-		System.out.println("Enter the regular price of a phone: ");
-		Scanner keyboard = new Scanner(System.in);
-		double price = keyboard.nextDouble();
-		for(int i=1;i<=3;i++)
-		{
-			if(i<3)
-			{
-				System.out.println("phone "+i+" "+price);
-			}
-			else 
-			{
-				System.out.println("phones " + i +" "+(price)/2);
-			}
-		}
-		
-	}
-
+public static void main(String[] args) 
+{
+System.out.println("SUBSTRING FOR KIDS");
+String sentence= substringForKids(1,1,"fun");
+System.out.println(sentence);
 }
+
+public static String substringForKids(int i, int j, String k) 
+{
+	String kids="";
+	
+	if(i==j)
+		return String.valueOf(k.charAt(i));
+	/*if(i<j)
+		for(int kiddo=i; kiddo<=j;kiddo++)
+			{
+				kids+=k.charAt(kiddo);
+			}
+	if(i>j)
+		return "you have gave me invalid numbers!";
+	if(i<0)
+		return "you gave me invalid numbers!";*/
+
+	return kids;
+}
+}
+
+
+		
+
+
+
