@@ -3,7 +3,7 @@ public class rabbit {
 	int x;
 	int y;
 
-	/*public rabbit(int x,int y)
+	public rabbit(int x,int y)
 	{
 		this.x=x;
 		this.y=y;
@@ -23,5 +23,5 @@ public class rabbit {
 
 	public void setY(int y) {
 		this.y = y;
-	}*/
+	}
 }
