@@ -13,7 +13,7 @@ public class Test1 {
 			}
 			else 
 			{
-				System.out.println("phone " + i +" "+(price)/2);
+				System.out.println("phones " + i +" "+(price)/2);
 			}
 		}
 		
